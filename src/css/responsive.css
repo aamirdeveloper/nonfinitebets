@@ -1,0 +1,125 @@
+
+@media (min-width: 1200px) {
+    .d-xl-table-group{
+        display: table-header-group !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: calc(100vh - 70px);
+    }
+    .main-panel {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        border-bottom: 2px solid rgb(255 255 255 / 16%);
+    }
+    .navbar .navbar-menu-wrapper {
+        border-bottom: 0;
+    }
+    .navbar .navbar-brand-wrapper {
+        background: transparent;
+    }
+    .navbar .navbar-menu-wrapper .navbar-toggler.navbar-toggler-right {
+        padding-right: 0;
+        padding-left: 10px;
+        display: none;
+    }
+    .navbar .navbar-menu-wrapper .navbar-nav.navbar-nav-right {
+        margin-left: auto;
+    }
+    .navbar .btn.btn1[data-bs-tab="login"] {
+        padding: 12px 8px !important;
+    }
+    .navbar .navbar-brand-wrapper {
+        width: 35%; 
+    }
+    .navbar .navbar-menu-wrapper {
+        width: 65%;
+    }
+    .navbar .navbar-brand-wrapper{
+        height: 60px;
+    }
+    .navbar .navbar-menu-wrapper{
+        height: 60px;
+    }
+    .page-body-wrapper {
+        padding-top: 60px;
+    }
+    footer.footer {
+        display: none;
+    }
+    .content-wrapper {
+        padding-bottom: 65px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile.nav-usdt .nav-link .nav-profile-text {
+        display: block;
+    }
+    .navbar .navbar-menu-wrapper .navbar-nav .nav-item .nav-link {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar .navbar-menu-wrapper .navbar-nav .nav-item {
+        margin-right: 0;
+        margin-left: 8px;
+    }
+    .navbar .navbar-menu-wrapper .navbar-toggler.navbar-toggler-right {
+        padding-right: 0;
+        padding-left: 5px;
+    }
+    .game-div hr{
+        display: none;
+    }
+    .game-div .game-right .gr-box.gr-fc {
+        width: 33.33%;
+    }
+    .game-div:not(:first-child) {
+        border-top: 1px solid rgb(255 255 255 / 20%);
+        padding-top: 1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        background-size: 180%;
+    }
+    .game-div .game-right .gr-box {
+        /* margin-bottom: 10px; */
+    }
+    
+    /* .game-div .game-right .gr-box.gr-fc.one {
+        width: calc(100% - 64px);
+    } */
+    
+    .game-div .game-right .gr-box.gr-fc {
+        width: calc(50% - 0px);
+    }
+    
+    .game-div .game-right .gr-box.gr-numplus {
+        width: 50px;
+        min-width: 50px;
+    }
+    nav.tab-02 .nav-tabs .nav-link {
+        font-size: .875em;
+        padding: 12px 15px;
+    }
+    .promo-box .img1 {
+        height: 130px;
+        width: 90px;
+        min-width: 90px;
+        object-fit: contain;
+    }
+    .table.table-01 tbody tr td.last-mob{
+        border-radius: 0 15px 15px 0;
+    }
+}
